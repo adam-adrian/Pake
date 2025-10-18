@@ -132,6 +132,7 @@ class PakeBuildManager {
       params.push("--show-system-tray");
       params.push("--hide-on-close");
       params.push("--keep-binary");
+      params.push("--inject", "./scripts/spotadblock.js");
     }
 
     // Icon handling
